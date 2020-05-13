@@ -1,1 +1,1 @@
-# stock-prediction_lstm
+# stock_prediction_lstm
