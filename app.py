@@ -131,9 +131,11 @@ y_pred = model.predict(testX)
 #plot
 from matplotlib.pyplot import figure
 figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
-plt.plot(trainY)
-plt.plot(testY)
-plt.plot(y_pred)
+#plt.plot(trainY)
+plt.title('Actual vs Predicted')
+plt.plot(testY,label = "Actual")
+plt.plot(y_pred,label = "Predicted")
+plt.legend(loc="upper left")
 plt.show()
 
 
